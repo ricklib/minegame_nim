@@ -1,0 +1,17 @@
+# Nim specific
+nimcache/
+*.exe
+*.o
+
+# Raylib/OS specific
+*.dll
+*.so
+*.dylib
+highscore.txt
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Executable
+.exe
