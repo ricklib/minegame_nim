@@ -98,7 +98,7 @@ proc handleMovement(player: var Player, dt: float32) =
   if player.vel.y > MAX_VELOCITY: player.vel.y = MAX_VELOCITY
   if player.vel.y < -MAX_VELOCITY: player.vel.y = -MAX_VELOCITY
 
-  # Update posiiton
+  # Update position
   player.pos.x += player.vel.x * dt
   player.pos.y += player.vel.y * dt
 
